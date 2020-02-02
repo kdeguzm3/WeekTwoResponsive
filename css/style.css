@@ -1,3 +1,15 @@
 body {
     background-color: grey;
 }
+
+myFace {
+    max-width: 80vw;
+}
+
+form input, form textarea {
+    width: 100%;
+}
+
+.submit {
+    width: 50%;
+}

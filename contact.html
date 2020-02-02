@@ -11,17 +11,38 @@
     <title>Contact</title>
   </head>
   <body>
-    <nav class="container-fluid">
+    <nav class="container-fluid bg-light">
         <div class="row x">
-            <div class="container-fluid col-sm-4 bg-dark d-flex flex-row justify-content-center text-secondary">
+            <div class="ml-sm-2 ml-md-4 container-fluid col-sm-4 bg-dark d-flex flex-row justify-content-center text-secondary">
                 <p class="h1">Kenneth</p>
             </div>
-            <div class="container-fluid-xs col-sm-8 navbar-light bg-light flex-row d-flex justify-content-between justify-content-sm-end align-items-center">
+            <div class="container-fluid-xs col-sm navbar-light bg-light flex-row d-flex justify-content-between justify-content-sm-end align-items-center">
                 <a class="p-2" href="./index.html">Index</a class="p-2">
                 <a class="p-2" href="./portfolio.html">Portfolio</a class="p-2">
                 <a class="p-2" href="contact.html">Contact Me</a class="p-2">
             </div>
         </div>
     </nav>
+ 
+    <section class="row pt-4">
+        <div class="container col-xs-11 col-sm-6 bg-light m-4 ml-md-4 text-left p-4">
+            <h2 class="text-left">Contact Me</h2>
+            <hr>
+            <form>
+                Name:<br>
+                <input type="text" name="John Smith" id="userName"><br>
+                Email:<br>
+                <input type="email" name="john@smith.com" id="eMail"><br>
+                <textarea name="message" id="" cols="30" rows="10">Message</textarea>
+                <input type="submit" class="submit" value="Submit" /><br>
+            </form>
+        </div>  
+        <div class="col-sm"></div>
+    </section>
+
+    <footer class="bg-dark text-right container-fluid footer mt-auto py-3 text-white sticky-bottom"> 
+        <p>&copy; Copyright</p>
+    </footer>
+
   </body>
 </html>
