@@ -13,3 +13,22 @@ form input, form textarea {
 .submit {
     width: 50%;
 }
+
+section {
+    box-shadow: 5px 10px 2px black ;
+}
+
+.bannerDiv img {
+    width: 100%;
+}
+
+.bannerDiv p {
+    display: block;
+    height: 1.5em;
+    width: 100%;
+    padding: 0px;
+    color: white;
+    background-color: rgb(120, 158, 241);
+    position: absolute;
+    bottom: 5px;
+}
